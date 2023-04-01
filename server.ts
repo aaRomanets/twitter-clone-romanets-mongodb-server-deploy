@@ -1,9 +1,9 @@
-import './core/db';
-
 import express from 'express';
 const { cors } = require('cors-ts')
 import multer from 'multer';
 import bodyParser from 'body-parser';
+
+import './core/db.ts';
 
 import { registerValidations } from './validations/register';
 import { passport } from './core/passport';

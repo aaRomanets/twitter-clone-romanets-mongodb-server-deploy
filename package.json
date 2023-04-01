@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.ts",
   "license": "MIT",
   "dependencies": {
     "@material-ui/lab": "^4.0.0-alpha.58",
